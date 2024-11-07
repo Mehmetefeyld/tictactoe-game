@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe JavaScript</title>
+    <!-- Dış stil dosyasını ekliyoruz -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Başlık etiketi -->
+    <h3>TİCTACTOE</h3>
+
+    <!-- Oyun tahtası için bir div -->
+    <div id="gameboard"></div><br>
+    <!-- Bilgilendirme metni için bir div -->
+    <div id="info"></div>
+    <br>
+    <!-- Çember oyuncusunun skoru için bir div -->
+    <div id="çemberScore"></div>
+    <!-- Çarpı oyuncusunun skoru için bir div -->
+    <div id="çarpıScore"></div>
+    <!-- Skor tahtası için bir div -->
+    <div id="scoreBoard"></div>
+    <!-- JavaScript dosyasını ekliyoruz -->
+    <script src="app.js"></script>
+    <br>
+    <!-- Sayfayı yeniden yükleyerek yeni oyuna başlamayı sağlayan buton -->
+    <button onClick="window.location.href=window.location.href" style="background-color: bisque;">Yeni Oyun</button>
+    <br>
+    <!-- Sayfayı kapatan buton -->
+    <button id="kapat" onclick="window.close()">kapat</button>
+
+</body>
+
+</html>
